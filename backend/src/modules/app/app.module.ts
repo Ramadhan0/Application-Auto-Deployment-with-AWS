@@ -29,4 +29,5 @@ import { EmployeeModule } from '../domain/employees/employee.module';
   controllers: [StatusController],
   providers: [AppService, AppLogger],
 })
-export class AppModule {}
+
+export class AppModule { }
